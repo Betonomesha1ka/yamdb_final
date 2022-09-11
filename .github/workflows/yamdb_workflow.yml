@@ -45,6 +45,8 @@ jobs:
         with:
           push: true
           tags: milo4ka0503/yamdb:v1
+          context: ./api_yamdb
+          file: ./api_yamdb/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
