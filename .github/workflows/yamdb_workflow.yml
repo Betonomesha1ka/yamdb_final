@@ -46,7 +46,7 @@ jobs:
           push: true
           tags: milo4ka0503/yamdb:v1
 
-deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
     steps:
