@@ -1,9 +1,12 @@
-https://github.com/Betonomesha1ka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
+![Cтатус workflow](https://github.com/Betonomesha1ka/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 # Проект YamDB
 ## **Описание**
 
 _Сайт с отзывами о произведениях культуры различных направлений.
+
+Ссылка на развернутый проект:
+http://84.201.167.36/api/v1/
 
 ## **Как запустить проект:**
 
