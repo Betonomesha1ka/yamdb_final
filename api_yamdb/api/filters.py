@@ -15,7 +15,7 @@ class TitleFilter(FilterSet):
         field_name='genre__slug',
         lookup_expr='exact'
     )
-    
+
     class Meta:
         model = Title
         fields = ('name', 'category', 'genre', 'year', )
