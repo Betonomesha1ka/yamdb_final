@@ -12,4 +12,4 @@ urlpatterns = [
         TemplateView.as_view(template_name='redoc.html'),
         name='redoc'
     ),
-] + static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)
+]
